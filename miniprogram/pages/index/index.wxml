@@ -1,0 +1,10 @@
+<!--miniprogram/pages/index/index.wxml-->
+
+<image src="../../images/bg.svg" class="bg-image" mode="aspectFill" bindtap="onTapLogo"></image>
+<view class="btn-container" >
+  <big-btn content="HTML" animation="{{animationData}}" animationDelay="{{0}}" class="html-btn" bindtap="onTapToHtml"></big-btn>
+  <big-btn content="CSS" animation="{{animationData}}" animationDelay="{{2000}}" class="css-btn"></big-btn>
+  <text class="single-text">JAVASCRIPT</text>
+</view>
+<image src="../../images/logo.svg" mode="aspectFit" class="logo-image" bindtap="onTapLogo" id="logo"></image>
+<logo-modal animation="{{toggleShow}}" class="logo-modal1" id="logo-modal"></logo-modal>

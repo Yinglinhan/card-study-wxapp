@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "test-com":"../../components/test/test",
+    "big-btn":"../../components/bigBtn/bigBtn",
+    "logo-modal": "../../components/logoModal/logoModal"
+  },
+  "disableScroll": true
+
+}

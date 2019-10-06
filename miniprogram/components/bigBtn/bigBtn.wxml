@@ -1,0 +1,2 @@
+<!--components/bigBtn/bigBtn.wxml-->
+<text class="big-btn">{{content}}</text>

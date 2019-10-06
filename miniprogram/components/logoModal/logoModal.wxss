@@ -1,0 +1,10 @@
+/* components/logoModal/logoModal.wxss */
+.logo-modal{
+  width: 100%;
+  height: 500rpx;
+  background-color: #06001F;
+  opacity: 0.8;
+  
+  border-top-right-radius: 20rpx;
+  border-top-left-radius: 20rpx;
+}

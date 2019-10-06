@@ -1,0 +1,107 @@
+/* miniprogram/pages/cards/cards.wxss */
+
+.cards-head{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  position: relative;
+   margin-top: 40rpx;
+}
+.title{
+  font-size: 48rpx;
+  font-family: 'Optician Sans';
+ 
+  margin-bottom: 20rpx;
+}
+.cards-types{
+  /* width: 100%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.first-card{
+  transform: translateX(8rpx)
+}
+.last-card{
+  transform: translate(-7rpx)
+}
+.refresh-btn{
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  right: 5rpx;
+  top: 0;
+}
+
+/* ------- 卡片展示区域 ------- */
+
+.cards-box{
+  position: relative;
+  height: 700rpx;
+  width: 600rpx;
+}
+.cardboard {
+  position: absolute;
+}
+.card-layer0{
+  top: -14rpx;
+  left: -14rpx;
+}
+.card-layer2{
+  top: 14rpx;
+  left: 14rpx;
+}
+.prev-btn{
+  text-align: center;
+  display: block;
+  width: 100%;
+  font-family: 'Optician Sans';
+  font-size: 36rpx;
+  margin-top: 30rpx;
+}
+
+
+/* -------- 底部控制按钮区域 ----------  */
+
+.control-btns{
+  background-image: url('https://7465-test-keyqj-1300188349.tcb.qcloud.la/bottom-bg.jpg?sign=aca2ec3c98bd53199acfe1075470b770&t=1570345326');
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 200rpx;
+  width: 100vw;
+  margin-bottom: 100rpx;
+  transform: scale(1.1) translateX(1vw);
+  background-position: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.btns{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.btn-icon{
+  width: 58rpx;
+  height: 58rpx;
+}
+
+/* ------- 拖拽实验 ------ */
+.move-area{
+
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+}
+
+.move-box{
+  background-color: red;
+  height: 30rpx;
+  width: 30rpx;
+  z-index: 1000;
+}

@@ -1,0 +1,36 @@
+<!--miniprogram/pages/cards/cards.wxml-->
+<view class="container">
+  
+  <view class="cards-head"> 
+    <image src="../../images/refresh.svg" class="refresh-btn"></image>
+    <text class="title">HTML</text>
+    <view class="cards-types">
+      <card-type class="first-card card" id="first" cardtype="{{cardsList.unlearned}}" bindtap="onTapCardType"></card-type>
+      <card-type class="middle-card card" id="second" cardtype="{{cardsList.again}}" bindtap="onTapCardType"></card-type>
+      <card-type class="last-card card" id="third" cardtype="{{cardsList.learned}}" bindtap="onTapCardType"></card-type>
+    </view>
+  </view>
+
+
+  <view class="main-content">
+    <view class="cards-box">
+
+        <single-card wx:for="{{cardsShow}}" wx:key="{{index}}" class="card-layer{{index}} cardboard"></single-card>
+        <movable-area class="move-area">
+          <movable-view class="move-box" direction="all" out-of-bounds="true">
+          
+          </movable-view>
+        </movable-area>
+        
+    </view>
+    <text class="prev-btn">PREV</text>
+  </view>
+  <view class="control-btns">
+    
+    <view class="btns">
+      <image class="btn-icon" src="../../images/gotit.png"></image>
+      <image class="btn-icon" src="../../images/notsure.png"></image>
+      <image class="btn-icon" src="../../images/dont.png"></image>
+    </view>
+  </view>
+</view>

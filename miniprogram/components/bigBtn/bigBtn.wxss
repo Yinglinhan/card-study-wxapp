@@ -1,0 +1,8 @@
+/* components/bigBtn/bigBtn.wxss */
+.big-btn{
+  border: 12rpx solid black;
+  font-family: "Optician Sans";
+  background-color: white;
+  padding: 20rpx 30rpx;
+  font-size: 80rpx;
+}

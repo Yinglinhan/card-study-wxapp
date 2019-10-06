@@ -1,0 +1,23 @@
+{
+  "cardsType":{
+      "unlearned": {
+        "type": "未学习",
+        "count": 126,
+        "selected": true,
+        "id": "first"
+    },
+      "again": {
+        "type": "需巩固",
+        "count": 18,
+        "beblue": true,
+        "selected": false,
+        "id": "second"
+    },
+      "learned": {
+        "type": "已掌握",
+        "count": 31,
+        "selected": false,
+        "id": "third"
+    }
+  }
+}

@@ -1,0 +1,68 @@
+/* components/cards/singleCard/singleCard.wxss */
+.card-container{
+  width: 600rpx;
+  border:solid 8rpx #06001F;
+  height: 600rpx;
+  margin-top: 50rpx;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.card-titlebox{
+
+  border-bottom: solid 8rpx #06001F;
+  display: flex;
+  align-items: flex-start;
+  min-height: 100rpx;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.card-title{
+  font-size: 42rpx;
+  padding: 20rpx 0;
+  width: 90%;
+  word-wrap:break-word;
+}
+
+.corner-logo{
+  height: 60rpx;
+  width: 60rpx;
+  padding: 20rpx;
+}
+.arrow{
+  width: 40rpx;
+  height: 60rpx;
+  padding: 20rpx;
+}
+
+/* 文字区域背景 */
+.card-content{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://7465-test-keyqj-1300188349.tcb.qcloud.la/contentbg.png?sign=9b07fb41ded7d53ffb7876366ad2c45b&t=1570265314');
+  background-size: contain;
+}
+
+.tip-text{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-tip{
+  letter-spacing: 16rpx;
+  font-weight: bolder;
+  opacity: 0.25;
+  margin-bottom: 20rpx;
+}
+
+.secondary-tip{
+  font-size: 24rpx;
+  letter-spacing: 4rpx;
+  font-weight: light;
+  opacity: 0.15;
+}

@@ -1,0 +1,18 @@
+/* components/cardsType/cardsType.wxss */
+.card-box{
+  width: 220rpx;
+  height: 120rpx;
+  border: 8rpx solid #06001F;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.text-style{
+  font-family: 'Cooper Hewitt';
+  margin-top: 16rpx;
+}
+.selected{
+  background-color: #EBEBEB;
+  box-shadow: 0 8rpx 0 #4300FF;
+}

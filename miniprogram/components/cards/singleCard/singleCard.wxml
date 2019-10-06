@@ -1,0 +1,17 @@
+<!--components/cards/singleCard/singleCard.wxml-->
+<view class="card-container">
+  <view class="card-titlebox">
+    
+      <image src="../../../images/arrow.svg" mode="aspectFit" class="arrow"></image>
+      <text class="card-title">{{'什么是语义化'}}</text>
+    
+      <image src="../../../images/logo.svg" class="corner-logo"  mode="aspectFit"></image>
+  </view>
+  <view class="card-content">
+    <view class="tip-text">
+      <text class="main-tip">请将答案说出口</text>
+      <text class="secondary-tip">点击卡片显示答案</text>
+    </view>
+    <!-- <image src="../../../images/contentbg.png" mode="aspectFill" class="img-content"></image> -->
+  </view>
+</view>

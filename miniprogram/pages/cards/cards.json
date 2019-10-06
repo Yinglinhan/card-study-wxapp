@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "card-type": "../../components/cardsType/cardsType",
+    "card-box":"../../components/cards/cardsBox/cardsBox",
+    "single-card":"../../components/cards/singleCard/singleCard"
+  },
+  "disableScroll": true
+}
+

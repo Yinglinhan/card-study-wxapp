@@ -1,0 +1,5 @@
+<!--components/cardsType/cardsType.wxml-->
+<view class="card-box {{cardtype.selected ? 'selected' : ''}}" > 
+  <text class="card-name">{{cardtype.type}}</text>
+  <text class="text-style " style="{{cardtype.beblue ? 'color:#4300FF' : ''}}">{{cardtype.count}}</text>
+</view>
