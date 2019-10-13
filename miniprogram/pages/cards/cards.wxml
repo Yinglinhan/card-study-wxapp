@@ -3,7 +3,7 @@
   
   <view class="cards-head"> 
     <image src="../../images/refresh.svg" class="refresh-btn"></image>
-    <text class="title">HTML</text>
+    <text class="title">HTM</text>
     <view class="cards-types">
       <card-type class="first-card card" id="first" cardtype="{{cardsList.unlearned}}" bindtap="onTapCardType"></card-type>
       <card-type class="middle-card card" id="second" cardtype="{{cardsList.again}}" bindtap="onTapCardType"></card-type>

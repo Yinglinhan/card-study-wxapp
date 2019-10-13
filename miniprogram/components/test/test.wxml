@@ -1,2 +1,2 @@
 <!--components/test/test.wxml-->
-<text class="test">我是一个组件</text>
+<text class="test">我是一个组件 </text>
