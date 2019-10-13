@@ -92,16 +92,3 @@
 }
 
 /* ------- 拖拽实验 ------ */
-.move-area{
-
-  width: 100vw;
-  height: 100vh;
-  z-index: 100;
-}
-
-.move-box{
-  background-color: red;
-  height: 30rpx;
-  width: 30rpx;
-  z-index: 1000;
-}

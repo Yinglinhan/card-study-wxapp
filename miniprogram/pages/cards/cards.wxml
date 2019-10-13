@@ -16,11 +16,7 @@
     <view class="cards-box">
 
         <single-card wx:for="{{cardsShow}}" wx:key="{{index}}" class="card-layer{{index}} cardboard"></single-card>
-        <movable-area class="move-area">
-          <movable-view class="move-box" direction="all" out-of-bounds="true">
-          
-          </movable-view>
-        </movable-area>
+        
         
     </view>
     <text class="prev-btn">PREV</text>
